@@ -1,0 +1,57 @@
+baseURL = "http://scbiblechurch.org/"
+languageCode = "en-us"
+title = "Spring Creek Bible Church"
+theme = "scbc"
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About Us"
+    url = "/about/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "wwb"
+    name = "What We Belive"
+    url = "about_history"
+    parent = "about"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "services"
+    name = "Service Times"
+    url = "#services"
+    parent = "about"
+    weight = 2
+  
+  [[menu.main]]
+    identifier = "ch"
+    name = "Church History"
+    url = "about_history"
+    parent = "about"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "staff"
+    name = "Leadership and Staff"
+    url = "about_staff"
+    parent = "about"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "cp"
+    name = "Church Policies"
+    url = "about_history"
+    parent = "about"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "ministries"
+    name = "Ministries"
+    url = "#"
+    weight = 4
+  [[menu.main]]
+    identifier = "stermons_teaching"
+    name = "Sermons and Teaching"
+    url = "about_staff"
+    parent = "ministries"
+    weight = 3

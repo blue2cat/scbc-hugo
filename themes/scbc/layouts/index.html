@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <!-- ======== @Region: #head ======== -->
+        {{- partial "head.html" . -}}
+        <body>
+            <!-- ======== @Region: #nav ======== -->
+            {{- partial "header.html" . -}}
+            
+
+            <!-- ======== @Region: #alert======== -->
+
+            <!-- ======== @Region: #slider ======== -->
+            {{- partial "homepage/slider.html" . -}}
+
+            <!-- ======== @Region: #content ======== -->
+            <div id="content" class="p-0">
+
+                {{- partial "homepage/purpose.html" . -}}
+
+                {{- partial "homepage/times.html" . -}}
+
+                {{- partial "homepage/getstarted.html" . -}}
+            </div>
+            
+            <!-- ======== @Region: #footer======== -->
+            {{- partial "footer/site-footer.html" . -}}
+            {{- partial "footer/scripts.html" . -}}
+        </body>
+</html>

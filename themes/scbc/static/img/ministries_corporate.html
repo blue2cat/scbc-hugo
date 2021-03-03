@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115728278-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-115728278-1');
+    </script>
+    
+    <title>Spring Creek Bible Church</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <!-- Bootstrap v4.0.0-beta.3 CSS via CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+    
+    <!-- Plugins required on all pages NOTE: Additional non-required plugins are loaded ondemand as of AppStrap 2.5 -->
+    
+    <!-- Theme style -->
+    <link href="assets/css/theme-style.min.css" rel="stylesheet">
+    <link href="color-green.css" rel="stylesheet">
+    
+    
+    <!-- Your custom override -->
+    <link href="assets/css/custom-style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    
+    <!-- Optional: ICON SETS -->
+    <!-- Iconset: Font Awesome 4.7.0 via CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Iconset: flag icons - http://lipis.github.io/flag-icon-css/ -->
+    <link href="assets/plugins/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+    <!-- Iconset: ionicons - http://ionicons.com/ -->
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <!-- Iconset: Linearicons - https://linearicons.com/free -->
+    <link href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" rel="stylesheet">
+    
+    
+    <!-- Le fav and touch icons - @todo: fill with your icons or remove -->
+    <link rel="shortcut icon" href="img/faviconbw.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/assets/img/icons/114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/assets/img/icons/72x72.png">
+    <link rel="apple-touch-icon" href="assets/assets/img/icons/default.png">
+    
+    
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Rambla:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+    
+    <!--Plugin: Retina.js (high def image replacement) - @see: http://retinajs.com/-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/retina.js/1.3.0/retina.min.js"></script>
+
+  </head>
+  
+  <!-- ======== @Region: body ======== -->
+  <body class="page page-index navbar-layout-default">
+    
+    <!-- @plugin: page loading indicator, delete to remove loader -->
+    <!-- <div class="page-loader" data-toggle="page-loader"></div> -->
+    
+    <!-- ======== @Region: #header ======== -->
+    <div id="header" class="header-dark">
+      
+      <div data-toggle="sticky">
+        
+        <!--Header & Branding region-->
+        <div class="header">
+          <!-- all direct children of the .header-inner element will be vertically aligned with each other you can override all the behaviours using the flexbox utilities (flexbox.htm) All elements with .header-brand & .header-block-flex wrappers will automatically be aligned inline & vertically using flexbox, this can be overridden using the flexbox utilities (flexbox.htm) Use .header-block to stack elements within on small screen & "float" on larger screens use .order-first or/and .order-last classes to make an element show first or last within .header-inner or .headr-block elements -->
+          <div class="header-inner container">
+            <!--branding/logo -->
+            <div class="header-brand">
+              <a class="header-brand-text" href="index.html" title="Home">
+                <!-- <img src="img/banner-logo.png" width="59" height="70" class="img-responsive pull-left"> -->
+                <!-- <img src="img/Logo-Web.png" width="48" height="48" class=""> -->
+                <img src="img/logo-header2.png" width="400" height="48" class="d-none d-sm-inline">
+                <img src="img/logo-header-small.png" width="250" height="48" class="d-sm-none">
+              </a>
+
+            </div>
+            <!-- other header content -->
+            <div class="header-block order-12">
+              
+              <!-- mobile collapse menu button - data-toggle="collapse" = default BS menu - data-toggle="jpanel-menu" = jPanel Menu - data-toggle="overlay" = Overlay Menu -->
+              <a href="#top" class="btn btn-link btn-icon header-btn float-right d-lg-none" data-toggle="jpanel-menu" data-target=".navbar-main" data-direction="right"> <i class="fa fa-bars"></i> </a>
+            </div>
+            
+            <div class="navbar navbar-expand-md navbar-static-top">
+              <!--everything within this div is collapsed on mobile-->
+              <div class="navbar-main collapse">
+                <!--main navigation-->
+                <ul class="nav navbar-nav float-lg-right dropdown-effect-fade">
+
+                  <!-- About Us -->
+                  <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="pages-drop" data-toggle="dropdown" data-hover="dropdown">About Us</a> 
+                    <!-- Menu -->
+                    <div class="dropdown-menu">
+                      <a href="index.html#services" class="dropdown-item">Service Times</a>
+                      <div class="dropdown dropdown-submenu">
+                        <a href="#" class="dropdown-item dropdown-toggle" id="blog-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">What We Believe</a> 
+                        <!-- Dropdown Menu -->
+                        <div class="dropdown-menu"> 
+                          <a href="about_doctrine.html" class="dropdown-item">Doctrinal Statement</a> 
+                          <a href="about_distinctives.html" class="dropdown-item">What Makes Us Distinct</a> 
+                          <a href="about_pom.html" class="dropdown-item">Philosophy of Ministry</a>
+                        </div>
+                      </div>
+                      <a href="about_staff.html" class="dropdown-item">Leadership and Staff</a> 
+                      <div class="dropdown dropdown-submenu">
+                        <a href="#" class="dropdown-item dropdown-toggle" id="blog-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Church Policies</a> 
+                        <!-- Dropdown Menu -->
+                        <div class="dropdown-menu"> 
+                          <a href="about_stewardship.html" class="dropdown-item">Stewardship</a>  
+                          <a href="about_teen.html" class="dropdown-item">Teen Discipleship</a>
+                          <a href="about_divorce.html" class="dropdown-item">Divorce and Remarriage</a>
+                          <a href="about_facility.html" class="dropdown-item">Facility Use</a>
+                        </div>
+                      </div>
+                      <a href="about_history.html" class="dropdown-item">Church History</a> 
+                    </div>
+                  </li>
+
+                  <!-- Ministries -->
+                  <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="pages-drop" data-toggle="dropdown" data-hover="dropdown">Ministries</a> 
+                    <!-- Menu -->
+                    <div class="dropdown-menu">
+                      <a href="attendees_sermons.html" class="dropdown-item">Sermons & Teaching</a>
+                      <a href="ministries_corporate.html" class="dropdown-item">Corporate Worship</a>
+                      <a href="ministries_care_groups.html" class="dropdown-item">Care Groups</a>
+                      <a href="ministries_mens.html" class="dropdown-item">Men's Ministry</a>
+                      <a href="ministries_womens.html" class="dropdown-item">Women's Ministry</a>
+                      <a href="ministries_family.html" class="dropdown-item">Family & Children's Ministries</a>
+                      <a href="ministries_studies.html" class="dropdown-item">Seniors' Ministry</a>
+                      <a href="ministries_local_outreach.html" class="dropdown-item">Local Outreach</a>
+                      <a href="ministries_missions.html" class="dropdown-item">International Missions</a>
+                      <a href="ministries_prayer.html" class="dropdown-item">Prayer Ministry</a>
+                    </div>
+                  </li>
+
+                  <!-- Attendees -->
+                  <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="pages-drop" data-toggle="dropdown" data-hover="dropdown">Attendees</a> 
+                    <!-- Menu -->
+                    <div class="dropdown-menu">
+                      <a href="attendees_events.html" class="dropdown-item">Upcoming Events</a>
+                      <a href="attendees_membership_baptism.html" class="dropdown-item">Membership & Baptism</a>
+                      <a href="attendees_reading.html" class="dropdown-item">Recommended Reading</a>
+                    </div>
+                  </li>
+
+                  <!-- I'm New -->
+                  <li class="nav-item dropdown dropdown-persist dropdown-mega-menu dropdown-mega-menu-50">
+                    <a href="#" class="nav-link dropdown-toggle" id="megamenu-drop" data-toggle="dropdown" data-hover="dropdown">I'm New</a> 
+                    <!-- Dropdown Menu - Mega Menu -->
+                    <div class="dropdown-menu dropdown-menu-right">
+                      <!-- Tab panes -->
+                      <div class="tab-content py-3">
+                        <div class="tab-pane active show menu-tab-1" role="tabpanel">
+                          <div class="row text-center">
+                            <div class="col-lg-4 py-2">
+                              <i class="fa fa-map-o icon-5x text-primary" data-animate="fadeIn" data-animate-delay="0.1"></i> 
+                              <h5 class="mt-2">
+                                What We're About
+                              </h5>
+                              <p>Our mission is to glorify God by making disciples of Jesus Christ.</p>
+                              <p><a href="index.html#purpose" >Our Purpose</a></p>
+                            </div>
+                            <div class="col-lg-4 py-2">
+                              <i class="fa fa-map-marker icon-5x text-primary" data-animate="fadeIn" data-animate-delay="0.2"></i>
+                              <h5 class="mt-2">
+                                Service Times and Locations
+                              </h5>
+                              <p>Main Service: 10:00 AM</p>
+                              <p>Location: 567 E Kellogg Rd, Bellingham, WA</p>
+                              <p><a href="index.html#services">Service Times</a></p>
+                            </div>
+                            <div class="col-lg-4 py-2">
+                              <i class="fa fa-road icon-5x text-primary" data-animate="fadeIn" data-animate-delay="0.3"></i> 
+                              <h5 class="mt-2">
+                                Our Leadership Team
+                              </h5>
+                              <p>Reach out, we are here to serve you.</p><p><a href="about_staff.html">Our Leaders and Staff</a></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+              <!--/.navbar-collapse -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======== @Region: #content ======== -->
+    <div id="content" class="demos">
+      <div class="container">
+        <h2 class="title-divider">
+          <span>Corporate Worship</span>
+        </h2>
+
+        <h3 class="title-divider">
+          <span>Sunday <span class="font-weight-normal text-muted">Morning Worship Service</span></span>
+          <small>10:00 AM <span class="text-primary p-0">//</span> Worship Center</small>
+        </h3>
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <img class="img-fluid pt-2 pb-3"src="img/corporateworship.jpg" class="img-thumbnail" alt="Worship" />
+          </div>
+          <div class="col-md-6">
+            <p>The pinnacle of the week comes when the body of a local church gathers as one, an assembly of the saints meeting on the first day of the week, Sunday. Following the pattern of the early church, we convene to consider the truths of God’s Word as they are read, explained, and applied. We also assemble to corporately pray to the Lord who is our Master, as well as give to the needs of the saints and the ministry of the church. We also unite in the ordinances of the Lord’s table and baptism and in the singing of music that exalts God. Being a consistent participant in this “main event” of church life is deeply encouraging, vitally important, and biblically mandated.</p>
+            <p>Our primary time of corporate worship is Sunday morning. We welcome you for a time of singing, reading Scripture, prayer, and expository preaching from the Word of God. Please join us as we worship together and are edified in the teaching of God’s Word. If you are visiting, please take time to fill out the Welcome Tear-Off Tab in the bulletin.</p>
+            <p>Nursery care is available and encouraged but not required for children through age three. We do ask that children not be permitted to remain an on-going distraction in the worship service. SCBC also has video-fed rooms for nursing mothers and even noise-prone toddlers that you can take your children to. The worship service audio is also fed to a large portion of the building.</p>
+            <p>We hope you will join us this Sunday!</p>
+          </div>
+        </div>
+
+        <h3 class="title-divider">
+          <span>Sunday <span class="font-weight-normal text-muted"> Morning Discipleship Hour</span></span>
+          <small>8:45 AM <span class="text-primary p-0">//</span> Location Varies</small>
+        </h3>
+        <p>Start your Lord’s Day with an infusion of biblical truth and genuine encouragement. At 8:45 AM we gather for an hour of teaching and interaction centered on the cross of Christ and the truths of Scripture. Next to the Corporate Worship Service, the Discipleship Hour is a primary avenue for you to plug in, be blessed, bless others, and set yourself up for serious spiritual growth.</p>
+        <p>Adults choose from a few electives each quarter on everything from the major components of Systematic Theology and biblical book studies to practical instruction for godly marriages and families. Take the time to learn about our <a href="ministries/education.html">SCBC Education Plan</a> and how you can potentially participate in the comprehensive array of 23 core courses the plan intends to offer within a six-year time period. Plus there are a number of additional offerings beyond the core.</p>
+
+                <!-- class cards -->
+        <div class="card-deck-wrapper mb-3">
+          <div class="card-deck">
+            <!-- class 1 -->
+            <div class="card product-card">
+              <div class="pos-relative">
+                <img class="card-img-top img-fluid" src="img/philippians.jpg" alt="Philippians">
+              </div>
+              <!-- Content -->
+              <div class="card-body">
+                <h4 class="card-title">
+                  Philippians
+                </h4>
+                <p class="card-text">Joy. It’s a small word with a strong foundation. What was the basis for Paul’s joy that empowered him to pen these words while in prison? Philippians contains the answer to living joyfully no matter what circumstances the Lord has ordained for your life. Biblical joy is more than a smile—it’s a passionate pursuit of a Person who is mentioned over 100 times in this small book. Join us Sundays at 8:45 AM for this class taught by Pastor Andrew. Open to 7th grade and up; sign up in foyer.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Silver Beach Room <span class="text-primary p-0">//</span> Starts September 16 <span class="text-primary p-0">//</span> Sundays at 8:45 AM</small>
+              </div>
+            </div>
+
+            <!-- class 2 -->
+            <div class="card product-card">
+              <div class="pos-relative">
+                <img class="card-img-top img-fluid" src="img/shepherding.jpg" alt="Parenting Class'">
+              </div>
+              <!-- Content -->
+              <div class="card-body">
+                <h4 class="card-title">
+                  Shepherding God's Children
+                </h4>
+                <p class="card-text">This class will help equip you as a parent or future parent
+                of toddlers thru pre-teens to reach the heart of your children with the gospel of Jesus Christ and train them in His ways. Assignments will require one hour per week outside of class. Pastor Steve and Maureen will teach this nine-week 
+                Discipleship Hour class that begins on September 16. If possible, we encourage both parents to attend this class together. Sign up in the foyer.  </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Garden Room <span class="text-primary p-0">//</span> Starts September 16 <span class="text-primary p-0">//</span> Sundays at 8:45 AM</small>
+              </div>
+            </div>
+
+        <!-- End Classes -->
+
+      </div>
+    </div>
+
+        <h3 class="title-divider">
+          <span>Children’s <span class="font-weight-normal text-muted">Classes</span></span>
+        </h3>
+
+                <!-- class cards -->
+        <div class="card-deck-wrapper mb-3">
+          <div class="card-deck">
+            <!-- class 1 -->
+            <div class="card product-card">
+              <div class="pos-relative">
+                <img class="card-img-top img-fluid" src="img/CDH.jpg" alt="Children">
+              </div>
+              <!-- Content -->
+              <div class="card-body">
+                <h4 class="card-title">
+                  Children's Discipleship Hour
+                </h4>
+                <p class="card-text">Kids in grades K-4 will be taught from the Answers Bible Curriculum, which covers the entire Bible chronologically and provides a thorough understanding of the authority and primary teachings of Scripture. All ages will be equipped to defend the Bible and become conformed to the image of Christ as they apply God’s Word to their lives. Concepts include the trustworthiness of Scripture, the attributes of God, His plan of redemption, apologetics, and more! 5th and 6th graders will work through a special curriculum preparing them to jump into adult classes from 7th grade on. Contact Rob Freeman for more info on these classes.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Children's Classrooms <span class="text-primary p-0">//</span> Starts September 9 <span class="text-primary p-0">//</span> Sundays at 8:45 AM</small>
+              </div>
+            </div>
+
+            <!-- class 2 -->
+            <div class="card product-card">
+              <div class="pos-relative">
+                <img class="card-img-top img-fluid" src="img/essentialtruths.jpg" alt="Essential Truths">
+              </div>
+              <!-- Content -->
+              <div class="card-body">
+                <h4 class="card-title">
+                  Essential Truths
+                </h4>
+                <p class="card-text">Our transitions course, Essential Truths, follows our 5th & 6th grade class, but is open to any kids ready for the next step in Discipleship Hour. Essential Truths utilizes catechism-based instruction to give kids a foundational understanding of the major doctrines that form our adult Education Plan. Placement into this class is entirely at the parents’ discretion and they are welcome to come and take in the material with their kids on Sundays at 8:45 AM. Contact John K. for more info.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Children's Classrooms <span class="text-primary p-0">//</span> Starts September 9 <span class="text-primary p-0">//</span> Sundays at 8:45 AM</small>
+              </div>
+            </div>
+
+        <!-- End Classes -->
+
+      </div>
+    </div>
+
+        <h3 class="title-divider">
+          <span>Sunday <span class="font-weight-normal text-muted">Evening Family Life Service</span></span>
+        </h3>
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <img class="img-fluid pt-2 pb-3" src="img/FLS.jpg" class="img-thumbnail" alt="FLS" />
+          </div>
+          <div class="col-md-6">
+            <p>We meet most Sunday evenings in the Silver Beach Room (check our calendar to see when we break for Hospitality Sundays). It’s a small, theater-like auditorium that permits us to sit in close proximity to the rest of the body. You’ll enjoy the sweet, lingering fellowship of this Sunday night gathering and find it a fantastic way to wrap up your Sunday and launch into the work week “full” from all that the Lord has served up. Some say that participating in the evening service is key to getting rapidly plugged into life at SCBC. At the very least, we highly encourage you to join us at 6:00 PM and ask that you pray that a high view of God will reign supreme even as we enjoy this more relaxed time together.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!-- ======== @Region: #footer ======== -->
+    <footer id="footer" class="p-0">
+      <div class="container pt-6 pb-5">
+        <div class="row">
+          <div class="col-md-4">
+            <!--@todo: replace with company contact details-->
+            <h4 class="text-uppercase text-white title-divider">
+              <span>
+                Contact Us
+              </span>
+            </h4>
+            <address>
+              <ul class="list-unstyled">
+                <li>
+                  <abbr title="Phone"><i class="fa fa-phone fa-fw"></i></abbr>
+                  (360) 734-5228
+                </li>
+                <li>
+                  <abbr title="Email"><i class="fa fa-envelope fa-fw"></i></abbr>
+                  office@scbiblechurch.org
+                </li>
+                <li>
+                  <abbr title="Address"><i class="fa fa-home fa-fw"></i></abbr>
+                  <a href="https://www.google.com/maps/place/Spring+Creek+Bible+Church/@48.7950742,-122.4743295,17z/data=!4m12!1m6!3m5!1s0x5485a46a4dcdcd2b:0x911994b1205c703!2sSpring+Creek+Bible+Church!8m2!3d48.7950707!4d-122.4721355!3m4!1s0x5485a46a4dcdcd2b:0x911994b1205c703!8m2!3d48.7950707!4d-122.4721355">567 E Kellogg Rd, Bellingham WA 98226</a>
+                </li>
+                <li>
+                  <abbr title="Hours"<i class="fa fa-calendar fa-fw"></i></abbr>
+                  Office Hours: 9:00-5:00 (Tues-Fri)
+                </li>
+              </ul>
+            </address>
+          </div>
+          
+          <div class="col-md-4">
+            <h4 class="text-uppercase text-white title-divider">
+              <span>
+                About Us
+              </span>
+            </h4>
+            <p>We gather together to worship the Lord and strengthen one another with Bible-teaching and fellowship.</p>
+            <p>We depart to live for Christ and share His gospel throughout the week.</p>
+          </div>
+          
+          <div class="col-md-4">
+            <h4 class="text-uppercase text-white title-divider">
+              <span>
+                Sermons
+              </span>
+            </h4>
+            <p>Listen to <a href="attendees_sermons.html">sermons</a> at Spring Creek Bible Church.</p>
+          </div>
+        </div>
+        
+      </div>
+      <hr class="my-0 hr-blank op-2" />
+      <!--@todo: replace with company copyright details-->
+      <div class="bg-inverse-dark text-sm py-3">
+        <div class="container">
+          <div class="row">
+            <div class="">
+              <!-- <p class="mb-0">Copyright 2018 &copy; Spring Creek Bible Church</p> -->
+            </div>
+            <div class="col-md-6">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Hidden elements - excluded from jPanel Menu on mobile-->
+    <div class="hidden-elements jpanel-menu-exclude">
+      
+    </div>
+    
+    
+    <!--jQuery 3.2.1 via CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Popper 1.12.3 via CDN, needed for Bootstrap Tooltips & Popovers -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    
+    <!-- Bootstrap v4.0.0-beta.3 JS via CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+    
+    
+    <!-- JS plugins required on all pages NOTE: Additional non-required plugins are loaded ondemand as of AppStrap 2.5 To disable this and load plugin assets manually simple add data-plugins-manual=true to the body tag -->
+    
+    <!--Custom scripts & AppStrap API integration -->
+    <script src="assets/js/custom-script.js"></script>
+    <!--AppStrap scripts mainly used to trigger libraries/plugins -->
+    <script src="assets/js/script.min.js"></script>
+  </body>
+</html>
